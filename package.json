@@ -1,0 +1,23 @@
+{
+  "name": "symbap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager ./ symbap --platform=win32 --arch=x64"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^16.0.7",
+    "electron-packager": "^15.4.0",
+    "electron-winstaller": "^5.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "gulp": "^4.0.2",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  }
+}
