@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager ./release symbap --platform=win32 --arch=x64"
+    "build": "electron-packager ./ symbap --platform=win32 --arch=x64"
   },
   "author": "",
   "license": "ISC",
